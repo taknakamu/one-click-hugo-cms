@@ -1,7 +1,6 @@
 ---
-author: "Michael Henderson"
-date: 2014-09-28
 title: Creating a New Theme
+date: 2014-09-28T00:00:00.000Z
 ---
 
 ## Introduction
