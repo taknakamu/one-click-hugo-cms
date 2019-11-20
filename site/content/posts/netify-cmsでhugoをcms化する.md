@@ -1,7 +1,6 @@
 ---
 title: Netify CMSでHugoをCMS化する
 date: 2019-11-20T05:49:09.988Z
-thumbnail: /img/about-jumbotron.jpg
 images:
   - /img/about-direct-sourcing.jpg
 tags:
