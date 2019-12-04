@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Hugo &#43; Netlifyではじめるエンジニアブログ">
+<meta itemprop="description" content="About Hugo  Hugo is the world’s fastest framework for building websites. It is written in Go.
+ Hugoは静的サイトジェネレータの1つです。今やたくさんの静的サイトジェネレータが存在していますが、HugoはGo言語で書かれていること、そして動作が高速なことが特徴です。
+Hugoの他にはJekyll, Hexo, Gatsbyなどの静的サイトジェネレータがあります。
+参考) 静的サイトジェネレータの世界 (2) : 種類と解説
+Showcase 静的サイトジェレネータにより構築された静的サイトはよく技術ブログをはじめとしたブログで使用されることが多いですが、今では様々なプロダクトの公式サイトとしても使われています。
+Hugoで作成されたサイトも数多く存在します。1 Password, Let&rsquo;s Encrypt、最近ではKubernetesもHugoで作成されています。
+Quick Start GETTING STARTED &gt; Quick Start
+公式サイトのドキュメントQuick Startを参照し、Hugoのインストール、サイトの作成、テーマの設定を行います。ローカルでの動作であれば本当にQuickにStart可能です。
+ローカルで動作が確認できたらテーマを変更します。Hugoはテーマが豊富にあることも特徴の一つです。またテーマの変更も非常に簡単です。
+テーマを変更する Hugo Themes
+好きなテーマを選びテーマを変更します。基本的にはテーマをgit cloneしconfigを変更するのみですが、テーマごとに設定可能な項目があるため、テーマごとのインストール手順を参照することをお勧めします。
+テーマKieraをインストールする場合 Kiera Theme for Hugo
+$ cd themes$ git clone https://github.com/funkydan2/hugo-kiera.git kiera configも忘れずに変更します。
+theme = &#34;kiera&#34; テーマを変更することができました。
+サイトを公開する ここまででHugoをローカルで動作できるようになりました。次はサイトを外部に公開します。
+Github Pagesを使えば簡単に無料でサイトを公開することができます。更にGithub Actionsを使用することでpushするだけでデプロイまで可能となりました。">
+
+
+<meta itemprop="datePublished" content="2019-11-21T01:33:35&#43;00:00" />
+<meta itemprop="dateModified" content="2019-11-21T05:40:41&#43;00:00" />
+<meta itemprop="wordCount" content="174">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta property="og:title" content="Hugo &#43; Netlifyではじめるエンジニアブログ" />
+<meta property="og:description" content="About Hugo  Hugo is the world’s fastest framework for building websites. It is written in Go.
+ Hugoは静的サイトジェネレータの1つです。今やたくさんの静的サイトジェネレータが存在していますが、HugoはGo言語で書かれていること、そして動作が高速なことが特徴です。
+Hugoの他にはJekyll, Hexo, Gatsbyなどの静的サイトジェネレータがあります。
+参考) 静的サイトジェネレータの世界 (2) : 種類と解説
+Showcase 静的サイトジェレネータにより構築された静的サイトはよく技術ブログをはじめとしたブログで使用されることが多いですが、今では様々なプロダクトの公式サイトとしても使われています。
+Hugoで作成されたサイトも数多く存在します。1 Password, Let&rsquo;s Encrypt、最近ではKubernetesもHugoで作成されています。
+Quick Start GETTING STARTED &gt; Quick Start
+公式サイトのドキュメントQuick Startを参照し、Hugoのインストール、サイトの作成、テーマの設定を行います。ローカルでの動作であれば本当にQuickにStart可能です。
+ローカルで動作が確認できたらテーマを変更します。Hugoはテーマが豊富にあることも特徴の一つです。またテーマの変更も非常に簡単です。
+テーマを変更する Hugo Themes
+好きなテーマを選びテーマを変更します。基本的にはテーマをgit cloneしconfigを変更するのみですが、テーマごとに設定可能な項目があるため、テーマごとのインストール手順を参照することをお勧めします。
+テーマKieraをインストールする場合 Kiera Theme for Hugo
+$ cd themes$ git clone https://github.com/funkydan2/hugo-kiera.git kiera configも忘れずに変更します。
+theme = &#34;kiera&#34; テーマを変更することができました。
+サイトを公開する ここまででHugoをローカルで動作できるようになりました。次はサイトを外部に公開します。
+Github Pagesを使えば簡単に無料でサイトを公開することができます。更にGithub Actionsを使用することでpushするだけでデプロイまで可能となりました。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://neutrinoboy.jp/2019/11/21/0954211111/" />
+<meta property="article:published_time" content="2019-11-21T01:33:35+00:00" />
+<meta property="article:modified_time" content="2019-11-21T05:40:41+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo &#43; Netlifyではじめるエンジニアブログ"/>
+<meta name="twitter:description" content="About Hugo  Hugo is the world’s fastest framework for building websites. It is written in Go.
+ Hugoは静的サイトジェネレータの1つです。今やたくさんの静的サイトジェネレータが存在していますが、HugoはGo言語で書かれていること、そして動作が高速なことが特徴です。
+Hugoの他にはJekyll, Hexo, Gatsbyなどの静的サイトジェネレータがあります。
+参考) 静的サイトジェネレータの世界 (2) : 種類と解説
+Showcase 静的サイトジェレネータにより構築された静的サイトはよく技術ブログをはじめとしたブログで使用されることが多いですが、今では様々なプロダクトの公式サイトとしても使われています。
+Hugoで作成されたサイトも数多く存在します。1 Password, Let&rsquo;s Encrypt、最近ではKubernetesもHugoで作成されています。
+Quick Start GETTING STARTED &gt; Quick Start
+公式サイトのドキュメントQuick Startを参照し、Hugoのインストール、サイトの作成、テーマの設定を行います。ローカルでの動作であれば本当にQuickにStart可能です。
+ローカルで動作が確認できたらテーマを変更します。Hugoはテーマが豊富にあることも特徴の一つです。またテーマの変更も非常に簡単です。
+テーマを変更する Hugo Themes
+好きなテーマを選びテーマを変更します。基本的にはテーマをgit cloneしconfigを変更するのみですが、テーマごとに設定可能な項目があるため、テーマごとのインストール手順を参照することをお勧めします。
+テーマKieraをインストールする場合 Kiera Theme for Hugo
+$ cd themes$ git clone https://github.com/funkydan2/hugo-kiera.git kiera configも忘れずに変更します。
+theme = &#34;kiera&#34; テーマを変更することができました。
+サイトを公開する ここまででHugoをローカルで動作できるようになりました。次はサイトを外部に公開します。
+Github Pagesを使えば簡単に無料でサイトを公開することができます。更にGithub Actionsを使用することでpushするだけでデプロイまで可能となりました。"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Hugo &#43; Netlifyではじめるエンジニアブログ</title>
+	<link rel="stylesheet" href="https://neutrinoboy.jp/css/style.min.5ee5e7976cd09872c64e40a582206543f6aa38c69a8c43898aadc70040344b92.css" integrity="sha256-XuXnl2zQmHLGTkClgiBlQ/aqOMaajEOJiq3HAEA0S5I=" crossorigin="anonymous">
+	
+
+        
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://neutrinoboy.jp">nmta blog</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://neutrinoboy.jp/posts/">Posts</a>
+				<a href="https://neutrinoboy.jp/about/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/taknakamu" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://neutrinoboy.jp/posts/">Posts</a></li>
+			<li><a href="https://neutrinoboy.jp/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Nov 21, 2019</span></div>
+				<h1>Hugo &#43; Netlifyではじめるエンジニアブログ</h1>
+			</header>
+			<div class="content">
+				
+
+<h2 id="about-hugo">About Hugo<a href="#about-hugo" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<blockquote>
+<p>Hugo is the world’s fastest framework for building websites. It is written in Go.</p>
+</blockquote>
+
+<p>Hugoは静的サイトジェネレータの1つです。今やたくさんの静的サイトジェネレータが存在していますが、HugoはGo言語で書かれていること、そして動作が高速なことが特徴です。</p>
+
+<p>Hugoの他にはJekyll, Hexo, Gatsbyなどの静的サイトジェネレータがあります。</p>
+
+<p>参考) <a href="https://yoshinorin.net/2018/10/18/world-of-ssg2/">静的サイトジェネレータの世界 (2) : 種類と解説</a></p>
+
+<h3 id="showcase">Showcase<a href="#showcase" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>静的サイトジェレネータにより構築された静的サイトはよく技術ブログをはじめとしたブログで使用されることが多いですが、今では様々なプロダクトの公式サイトとしても使われています。</p>
+
+<p>Hugoで作成されたサイトも数多く存在します。<a href="https://1password.com/">1 Password</a>, <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>、最近では<a href="https://kubernetes.io/">Kubernetes</a>もHugoで作成されています。</p>
+
+<h2 id="quick-start">Quick Start<a href="#quick-start" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<p><a href="https://gohugo.io/getting-started/quick-start/">GETTING STARTED &gt; Quick Start</a></p>
+
+<p>公式サイトのドキュメントQuick Startを参照し、Hugoのインストール、サイトの作成、テーマの設定を行います。ローカルでの動作であれば本当にQuickにStart可能です。</p>
+
+<p>ローカルで動作が確認できたらテーマを変更します。Hugoはテーマが豊富にあることも特徴の一つです。またテーマの変更も非常に簡単です。</p>
+
+<h3 id="テーマを変更する">テーマを変更する<a href="#テーマを変更する" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p><a href="https://themes.gohugo.io/">Hugo Themes</a></p>
+
+<p>好きなテーマを選びテーマを変更します。基本的にはテーマを<code>git clone</code>しconfigを変更するのみですが、テーマごとに設定可能な項目があるため、テーマごとのインストール手順を参照することをお勧めします。</p>
+
+<h4 id="テーマkieraをインストールする場合">テーマKieraをインストールする場合<a href="#テーマkieraをインストールする場合" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p><a href="https://themes.gohugo.io/hugo-kiera/">Kiera Theme for Hugo</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-vim" data-lang="vim">$ <span class="nx">cd</span> <span class="nx">themes</span><span class="err">
+</span><span class="err"></span>$ <span class="nx">git</span> <span class="nx">clone</span> <span class="nx">https</span>:<span class="sr">//</span><span class="nx">github</span>.<span class="nx">com</span><span class="sr">/funkydan2/</span><span class="nx">hugo</span><span class="p">-</span><span class="nx">kiera</span>.<span class="nx">git</span> <span class="nx">kiera</span></code></pre></div>
+<p>configも忘れずに変更します。</p>
+<div class="highlight"><pre class="chroma"><code class="language-vim" data-lang="vim"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;kiera&#34;</span></code></pre></div>
+<p>テーマを変更することができました。</p>
+
+<h2 id="サイトを公開する">サイトを公開する<a href="#サイトを公開する" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<p>ここまででHugoをローカルで動作できるようになりました。次はサイトを外部に公開します。</p>
+
+<p>Github Pagesを使えば簡単に無料でサイトを公開することができます。更にGithub Actionsを使用することでpushするだけでデプロイまで可能となりました。</p>
+
+<p><a href="https://github.com/peaceiris/actions-hugo">peaceiris/actions-hugo</a></p>
+
+<p>しかし、やはり記事を追加してgit addしてcommitしてpushする必要はあるわけです。</p>
+
+<p>もう少しブログライクに記事を投稿したい。そこで使用するのがNetlifyです。</p>
+
+<h2 id="netlifyでホスティング">Netlifyでホスティング<a href="#netlifyでホスティング" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<p><a href="https://www.netlify.com/">Netlify</a></p>
+
+<blockquote>
+<p>Netlify is everything you need to build fast, modern websites: continuous deployment, serverless functions, and so much more.</p>
+</blockquote>
+
+<p>Netlifyを使えば、こちらも無料で静的サイトをホスティングすることができます。更にNetlify CMSを使用することで静的サイトをCMS化することができます。これにより多少使いずらいですが、スマホからの記事投稿も可能です。</p>
+
+<p>Netlifyはあらゆる静的サイトジェネレータに対応しています。もちろんHugoにも。難しい設定は必要ありません。画面から操作するだけで設定は完了します。何かを参考にしたいときはHugo+Netlifyの組み合わせに関する記事がたくさんあります。</p>
+
+<p>参考) <a href="https://www.yuri-k.com/post/hugo_and_netlify_cms/">HugoとNetlify CMSでブログを構築する</a></p>
+
+<h3 id="独自ドメインとssl">独自ドメインとSSL<a href="#独自ドメインとssl" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Netlify設定画面から独自ドメインの設定が行えます。ご自身がお持ちの独自ドメインを設定し、ドメインにNetlifyのネームサーバを設定するだけです。</p>
+
+<p>ドメインが使用できるようになれば、同じく設定画面からLet&rsquo;s Encryptを使用しSSL化も行えます。</p>
+
+<h3 id="テーマを置き換える">テーマを置き換える<a href="#テーマを置き換える" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Netlifyの機能を使用して自動的にHugoを設定した場合、サンプルサイトが構築されています。資材はGitで管理されています。ここではGithubを使用しているため資材はGithubにあります。</p>
+
+<p>Githubにリポジトリが作成されているためcloneします。</p>
+
+<p>siteの下が最初に作成したHugoと同じような構成となっています。Netlifyと連携する前にHugoでコンテンツを作成していたり、テーマを変更している場合は、siteの下にコピーするだけで変更することができます。</p>
+
+<h4 id="staticディレクトリに注意">staticディレクトリに注意<a href="#staticディレクトリに注意" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p>Netlifyではstaticの下にadminというディレクトリがあります。Netlify CMSに必要なディレクトリのためマージする際は消さないように注意してください。</p>
+
+<h4 id="add-the-netlify-identity-widget">add-the-netlify-identity-widget<a href="#add-the-netlify-identity-widget" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p><a href="https://www.netlifycms.org/docs/add-to-your-site/#add-the-netlify-identity-widget">add-the-netlify-identity-widget</a></p>
+
+<p>同じくNetlify CMSのためにテーマを編集する必要があります。上記のドキュメントを参考にテーマ内で<a href="https://identity.netlify.com/v1/netlify-identity-widget.jsを読み込みます。">https://identity.netlify.com/v1/netlify-identity-widget.jsを読み込みます。</a></p>
+
+<p>後はgit commitしpushするだけで変更を反映させることができます。</p>
+
+<h3 id="netlify-cms">Netlify CMS<a href="#netlify-cms" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>設定したドメインの後ろに<code>/admin</code>を打つと管理画面に入ることができます。管理画面に入るためにはログインIDとパスワードが必要です。</p>
+
+<h4 id="ログインidとパスワード">ログインIDとパスワード<a href="#ログインidとパスワード" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p>Netlify(CMSではない)の管理画面から<code>/identity</code>を開きます。ユーザを選択し、<code>[Send reset password email]</code>をクリックします。ユーザのメールアドレスに届いたメールを確認しパスワードを設定するとNetlify CMSにログインが可能となります。</p>
+
+<h4 id="git-gateway">Git Gateway<a href="#git-gateway" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+
+<p>Netlifyの管理画面から<code>/settings/identity#services</code>を開きます。<code>GitHub API access token</code>を設定し、Netlify CMSからGithubを操作できるようにします。</p>
+
+<p>これでNetlify CMSから記事を作成し公開することができるようになりました。</p>
+
+<h2 id="カスタマイズ">カスタマイズ<a href="#カスタマイズ" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+
+<h3 id="netlify-cmsの-new-post-の項目">Netlify CMSの[new post]の項目<a href="#netlify-cmsの-new-post-の項目" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>記事を作成する際設定可能な項目を変更することができます。変更する場合はソースコードから<code>site/static/admin/config.yml</code>を修正します。</p>
+
+<p>参考) <a href="https://www.netlifycms.org/docs/widgets/">Netlify CMS Widgets</a></p>
+
+<h3 id="post-posts">post -&gt; posts<a href="#post-posts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Netlify CMSで作成されたコンテンツはデフォルトでpost直下に作成されます。posts直下にコンテンツを作成していた場合は、postからpostsに変更します。</p>
+
+<p>site/static/admin/config.yml</p>
+
+<pre><code>folder: &quot;site/content/posts&quot;
+</code></pre>
+
+<h3 id="日本時間のタイムゾーン設定">日本時間のタイムゾーン設定<a href="#日本時間のタイムゾーン設定" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>タイムゾーンの設定はNetlifyの管理画面から行えます。<code>/settings/deploys#environment</code>を開きます。<code>Environment variables</code>の設定でkey:<code>TZ</code>, Value:<code>Asia/Tokyo</code>を設定します。</p>
+
+<h3 id="記事のurlを変更する">記事のURLを変更する<a href="#記事のurlを変更する" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>Netlify CMSで作成されたコンテンツはデフォルトで記事のタイトルがファイル名となり、URLとなります。日本語の記事の場合、日本語のURLとなるためURLを貼り付ける際などにURLエンコードされてしまうと長いURLになってしまいます。</p>
+
+<p>Netlifyではタイトルを変更せずに作成するファイル名のみを変更することができます。</p>
+
+<p>site/static/admin/config.yml</p>
+
+<pre><code>slug: &quot;{{year}}-{{month}}-{{day}}_{{slug}}&quot;
+</code></pre>
+
+<p>参考) <a href="https://www.netlifycms.org/docs/configuration-options/#slug">slug</a></p>
+
+<h3 id="記事のurlを日付区切りにする">記事のURLを日付区切りにする<a href="#記事のurlを日付区切りにする" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+
+<p>slugでファイル名を変更した場合、記事のURLを日付にすることはできますが、slugでは日付を&rsquo;/&lsquo;で区切ることはできません。</p>
+
+<p><a href="https://sitename/posts/2019_11_09_slug">https://sitename/posts/2019_11_09_slug</a></p>
+
+<p>↓</p>
+
+<p><a href="https://sitename/posts/2019/11/09/slug">https://sitename/posts/2019/11/09/slug</a></p>
+
+<p><strong>Hugo</strong>の設定で上記のような日付区切りのURLにすることができます。</p>
+
+<p>site/config.toml</p>
+
+<pre><code>[permalinks]
+  posts = &quot;/:year/:month/:day/:filename&quot;
+</code></pre>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-11-21 10:33 &#43;0900</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://neutrinoboy.jp/2019/12/04/4157041112/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;</span><br><span>プロジェクトはなぜ失敗するのか</span>
+			</a>
+			<a class="prev-post" href="https://neutrinoboy.jp/2019/11/20/0658201711/">
+				<span class="post-nav-label">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>slugを変更したので</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="https://neutrinoboy.jp">nmta</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://neutrinoboy.jp/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://neutrinoboy.jp/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

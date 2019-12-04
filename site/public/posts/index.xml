@@ -6,15 +6,400 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Mon, 24 Dec 2018 12:29:41 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 04 Dec 2019 02:48:42 +0000</lastBuildDate>
 		<atom:link href="https://neutrinoboy.jp/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>プロジェクトはなぜ失敗するのか</title>
+			<link>https://neutrinoboy.jp/2019/12/04/4157041112/</link>
+			<pubDate>Wed, 04 Dec 2019 02:48:42 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/12/04/4157041112/</guid>
+			<description>「プロジェクトはなぜ失敗するのか」という資料を書いた。
+https://speakerdeck.com/nmta/hurosiekutohanaseshi-bai-surufalseka
+プロジェクトを成功させることはSIerにとって永遠のテーマである。開発者、プロジェクトマネージャー、顧客、その他多くの関係者がうまく機能してはじめてプロジェクトは成功する。いずれもかけてはいけない。
+大きな案件を受注したものの「うまくやれるだろうか」と不安に思うこともあるかもしれない。はじめて経験する技術や環境であればなおさらだ。しかし、経験を積むことで不安を小さくすることはできる。ただそれは同じチームメンバー、同じ顧客であればの話だ。永遠に変わらないものなどない。私たちはそういった環境の中でプロジェクトを成功させることを求められている。
+経験がないからといって、優秀なメンバーが揃わなかったからといって、はじめからプロジェクトが失敗すると思ってはいけない。そんなことはよくあることだ。どんな状況下でもプロジェクトを成功させるためにプロジェクト管理手法、開発手法がある。
+それらの手法が浸透したことによりプロジェクトの成功率は徐々にではあるが上がってきているという。成功率は上がっているものの、失敗するプロジェクトは後を立たない。開発者が手法を学び成長する必要があることはいうまでもないが、それだけでは十分ではない。プロジェクトは顧客のわがままによっていつでも失敗する。顧客もまた手法を学び成長しなければいけない。
+ある発注者である顧客は言った。
+「使えないプロジェクトマネージャーだ」
+こうも言った。
+「ろくな開発者がいない」
+ある開発者は言った。
+「顧客はいつも言うことが変わる」
+こうも言った。
+「今回は顧客に恵まれなかったね」
+間違っているとはいわない。全てその通りなのだろう。しかし、失敗を誰かのせいにするだけでは何も学ぶことはできない。優秀な開発者が揃っていて、仕様変更も機能追加もしない顧客であればSIerに苦労などない。必要なことは誰かを責めることではなく、ふりかえり次に活かせる何かを見つけることだ。
+プロジェクト成功に必要なことは、わがままを言わない顧客を見つけることではない。顧客にわがままを言わせないことでもない。顧客のわがままな変更要求に対しても歓迎して受け入れることだ。もちろんただ受け入れるわけではない。顧客はスコープを変えること（受け入れる代わりにやらない、もしくは後回しにすることを決める）、期間を変更することを受け入れる必要がある。顧客はそうしなければプロジェクトが失敗すると理解しなければいけない。
+それでもやれという顧客がいることを私は知っている。「生産性を2倍にしろ」と。なんと言われてもできないものはできない。じゃあ予算も2倍にしてもらえますか？
+私たちに必要なことは努力（残業、徹夜、休日出勤）ではなく、技術（テクニック、テクノロジー）であることを忘れてはいけない。</description>
+			<content type="html"><![CDATA[<p>「プロジェクトはなぜ失敗するのか」という資料を書いた。</p>
+
+<p><a href="https://speakerdeck.com/nmta/hurosiekutohanaseshi-bai-surufalseka">https://speakerdeck.com/nmta/hurosiekutohanaseshi-bai-surufalseka</a></p>
+
+<p>プロジェクトを成功させることはSIerにとって永遠のテーマである。開発者、プロジェクトマネージャー、顧客、その他多くの関係者がうまく機能してはじめてプロジェクトは成功する。いずれもかけてはいけない。</p>
+
+<p>大きな案件を受注したものの「うまくやれるだろうか」と不安に思うこともあるかもしれない。はじめて経験する技術や環境であればなおさらだ。しかし、経験を積むことで不安を小さくすることはできる。ただそれは同じチームメンバー、同じ顧客であればの話だ。永遠に変わらないものなどない。私たちはそういった環境の中でプロジェクトを成功させることを求められている。</p>
+
+<p>経験がないからといって、優秀なメンバーが揃わなかったからといって、はじめからプロジェクトが失敗すると思ってはいけない。そんなことはよくあることだ。どんな状況下でもプロジェクトを成功させるためにプロジェクト管理手法、開発手法がある。</p>
+
+<p>それらの手法が浸透したことによりプロジェクトの成功率は徐々にではあるが上がってきているという。成功率は上がっているものの、失敗するプロジェクトは後を立たない。開発者が手法を学び成長する必要があることはいうまでもないが、それだけでは十分ではない。プロジェクトは顧客のわがままによっていつでも失敗する。顧客もまた手法を学び成長しなければいけない。</p>
+
+<p>ある発注者である顧客は言った。</p>
+
+<p>「使えないプロジェクトマネージャーだ」</p>
+
+<p>こうも言った。</p>
+
+<p>「ろくな開発者がいない」</p>
+
+<p>ある開発者は言った。</p>
+
+<p>「顧客はいつも言うことが変わる」</p>
+
+<p>こうも言った。</p>
+
+<p>「今回は顧客に恵まれなかったね」</p>
+
+<p>間違っているとはいわない。全てその通りなのだろう。しかし、失敗を誰かのせいにするだけでは何も学ぶことはできない。優秀な開発者が揃っていて、仕様変更も機能追加もしない顧客であればSIerに苦労などない。必要なことは誰かを責めることではなく、ふりかえり次に活かせる何かを見つけることだ。</p>
+
+<p>プロジェクト成功に必要なことは、わがままを言わない顧客を見つけることではない。顧客にわがままを言わせないことでもない。顧客のわがままな変更要求に対しても歓迎して受け入れることだ。もちろんただ受け入れるわけではない。顧客はスコープを変えること（受け入れる代わりにやらない、もしくは後回しにすることを決める）、期間を変更することを受け入れる必要がある。顧客はそうしなければプロジェクトが失敗すると理解しなければいけない。</p>
+
+<p>それでもやれという顧客がいることを私は知っている。「生産性を2倍にしろ」と。なんと言われてもできないものはできない。じゃあ予算も2倍にしてもらえますか？</p>
+
+<p>私たちに必要なことは努力（残業、徹夜、休日出勤）ではなく、技術（テクニック、テクノロジー）であることを忘れてはいけない。</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Hugo &#43; Netlifyではじめるエンジニアブログ</title>
+			<link>https://neutrinoboy.jp/2019/11/21/0954211111/</link>
+			<pubDate>Thu, 21 Nov 2019 01:33:35 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/11/21/0954211111/</guid>
+			<description>About Hugo  Hugo is the world’s fastest framework for building websites. It is written in Go.
+ Hugoは静的サイトジェネレータの1つです。今やたくさんの静的サイトジェネレータが存在していますが、HugoはGo言語で書かれていること、そして動作が高速なことが特徴です。
+Hugoの他にはJekyll, Hexo, Gatsbyなどの静的サイトジェネレータがあります。
+参考) 静的サイトジェネレータの世界 (2) : 種類と解説
+Showcase 静的サイトジェレネータにより構築された静的サイトはよく技術ブログをはじめとしたブログで使用されることが多いですが、今では様々なプロダクトの公式サイトとしても使われています。
+Hugoで作成されたサイトも数多く存在します。1 Password, Let&amp;rsquo;s Encrypt、最近ではKubernetesもHugoで作成されています。
+Quick Start GETTING STARTED &amp;gt; Quick Start
+公式サイトのドキュメントQuick Startを参照し、Hugoのインストール、サイトの作成、テーマの設定を行います。ローカルでの動作であれば本当にQuickにStart可能です。
+ローカルで動作が確認できたらテーマを変更します。Hugoはテーマが豊富にあることも特徴の一つです。またテーマの変更も非常に簡単です。
+テーマを変更する Hugo Themes
+好きなテーマを選びテーマを変更します。基本的にはテーマをgit cloneしconfigを変更するのみですが、テーマごとに設定可能な項目があるため、テーマごとのインストール手順を参照することをお勧めします。
+テーマKieraをインストールする場合 Kiera Theme for Hugo
+$ cd themes$ git clone https://github.com/funkydan2/hugo-kiera.git kiera configも忘れずに変更します。
+theme = &amp;#34;kiera&amp;#34; テーマを変更することができました。
+サイトを公開する ここまででHugoをローカルで動作できるようになりました。次はサイトを外部に公開します。
+Github Pagesを使えば簡単に無料でサイトを公開することができます。更にGithub Actionsを使用することでpushするだけでデプロイまで可能となりました。</description>
+			<content type="html"><![CDATA[
+
+<h2 id="about-hugo">About Hugo</h2>
+
+<blockquote>
+<p>Hugo is the world’s fastest framework for building websites. It is written in Go.</p>
+</blockquote>
+
+<p>Hugoは静的サイトジェネレータの1つです。今やたくさんの静的サイトジェネレータが存在していますが、HugoはGo言語で書かれていること、そして動作が高速なことが特徴です。</p>
+
+<p>Hugoの他にはJekyll, Hexo, Gatsbyなどの静的サイトジェネレータがあります。</p>
+
+<p>参考) <a href="https://yoshinorin.net/2018/10/18/world-of-ssg2/">静的サイトジェネレータの世界 (2) : 種類と解説</a></p>
+
+<h3 id="showcase">Showcase</h3>
+
+<p>静的サイトジェレネータにより構築された静的サイトはよく技術ブログをはじめとしたブログで使用されることが多いですが、今では様々なプロダクトの公式サイトとしても使われています。</p>
+
+<p>Hugoで作成されたサイトも数多く存在します。<a href="https://1password.com/">1 Password</a>, <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>、最近では<a href="https://kubernetes.io/">Kubernetes</a>もHugoで作成されています。</p>
+
+<h2 id="quick-start">Quick Start</h2>
+
+<p><a href="https://gohugo.io/getting-started/quick-start/">GETTING STARTED &gt; Quick Start</a></p>
+
+<p>公式サイトのドキュメントQuick Startを参照し、Hugoのインストール、サイトの作成、テーマの設定を行います。ローカルでの動作であれば本当にQuickにStart可能です。</p>
+
+<p>ローカルで動作が確認できたらテーマを変更します。Hugoはテーマが豊富にあることも特徴の一つです。またテーマの変更も非常に簡単です。</p>
+
+<h3 id="テーマを変更する">テーマを変更する</h3>
+
+<p><a href="https://themes.gohugo.io/">Hugo Themes</a></p>
+
+<p>好きなテーマを選びテーマを変更します。基本的にはテーマを<code>git clone</code>しconfigを変更するのみですが、テーマごとに設定可能な項目があるため、テーマごとのインストール手順を参照することをお勧めします。</p>
+
+<h4 id="テーマkieraをインストールする場合">テーマKieraをインストールする場合</h4>
+
+<p><a href="https://themes.gohugo.io/hugo-kiera/">Kiera Theme for Hugo</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-vim" data-lang="vim">$ <span class="nx">cd</span> <span class="nx">themes</span><span class="err">
+</span><span class="err"></span>$ <span class="nx">git</span> <span class="nx">clone</span> <span class="nx">https</span>:<span class="sr">//</span><span class="nx">github</span>.<span class="nx">com</span><span class="sr">/funkydan2/</span><span class="nx">hugo</span><span class="p">-</span><span class="nx">kiera</span>.<span class="nx">git</span> <span class="nx">kiera</span></code></pre></div>
+<p>configも忘れずに変更します。</p>
+<div class="highlight"><pre class="chroma"><code class="language-vim" data-lang="vim"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;kiera&#34;</span></code></pre></div>
+<p>テーマを変更することができました。</p>
+
+<h2 id="サイトを公開する">サイトを公開する</h2>
+
+<p>ここまででHugoをローカルで動作できるようになりました。次はサイトを外部に公開します。</p>
+
+<p>Github Pagesを使えば簡単に無料でサイトを公開することができます。更にGithub Actionsを使用することでpushするだけでデプロイまで可能となりました。</p>
+
+<p><a href="https://github.com/peaceiris/actions-hugo">peaceiris/actions-hugo</a></p>
+
+<p>しかし、やはり記事を追加してgit addしてcommitしてpushする必要はあるわけです。</p>
+
+<p>もう少しブログライクに記事を投稿したい。そこで使用するのがNetlifyです。</p>
+
+<h2 id="netlifyでホスティング">Netlifyでホスティング</h2>
+
+<p><a href="https://www.netlify.com/">Netlify</a></p>
+
+<blockquote>
+<p>Netlify is everything you need to build fast, modern websites: continuous deployment, serverless functions, and so much more.</p>
+</blockquote>
+
+<p>Netlifyを使えば、こちらも無料で静的サイトをホスティングすることができます。更にNetlify CMSを使用することで静的サイトをCMS化することができます。これにより多少使いずらいですが、スマホからの記事投稿も可能です。</p>
+
+<p>Netlifyはあらゆる静的サイトジェネレータに対応しています。もちろんHugoにも。難しい設定は必要ありません。画面から操作するだけで設定は完了します。何かを参考にしたいときはHugo+Netlifyの組み合わせに関する記事がたくさんあります。</p>
+
+<p>参考) <a href="https://www.yuri-k.com/post/hugo_and_netlify_cms/">HugoとNetlify CMSでブログを構築する</a></p>
+
+<h3 id="独自ドメインとssl">独自ドメインとSSL</h3>
+
+<p>Netlify設定画面から独自ドメインの設定が行えます。ご自身がお持ちの独自ドメインを設定し、ドメインにNetlifyのネームサーバを設定するだけです。</p>
+
+<p>ドメインが使用できるようになれば、同じく設定画面からLet&rsquo;s Encryptを使用しSSL化も行えます。</p>
+
+<h3 id="テーマを置き換える">テーマを置き換える</h3>
+
+<p>Netlifyの機能を使用して自動的にHugoを設定した場合、サンプルサイトが構築されています。資材はGitで管理されています。ここではGithubを使用しているため資材はGithubにあります。</p>
+
+<p>Githubにリポジトリが作成されているためcloneします。</p>
+
+<p>siteの下が最初に作成したHugoと同じような構成となっています。Netlifyと連携する前にHugoでコンテンツを作成していたり、テーマを変更している場合は、siteの下にコピーするだけで変更することができます。</p>
+
+<h4 id="staticディレクトリに注意">staticディレクトリに注意</h4>
+
+<p>Netlifyではstaticの下にadminというディレクトリがあります。Netlify CMSに必要なディレクトリのためマージする際は消さないように注意してください。</p>
+
+<h4 id="add-the-netlify-identity-widget">add-the-netlify-identity-widget</h4>
+
+<p><a href="https://www.netlifycms.org/docs/add-to-your-site/#add-the-netlify-identity-widget">add-the-netlify-identity-widget</a></p>
+
+<p>同じくNetlify CMSのためにテーマを編集する必要があります。上記のドキュメントを参考にテーマ内で<a href="https://identity.netlify.com/v1/netlify-identity-widget.jsを読み込みます。">https://identity.netlify.com/v1/netlify-identity-widget.jsを読み込みます。</a></p>
+
+<p>後はgit commitしpushするだけで変更を反映させることができます。</p>
+
+<h3 id="netlify-cms">Netlify CMS</h3>
+
+<p>設定したドメインの後ろに<code>/admin</code>を打つと管理画面に入ることができます。管理画面に入るためにはログインIDとパスワードが必要です。</p>
+
+<h4 id="ログインidとパスワード">ログインIDとパスワード</h4>
+
+<p>Netlify(CMSではない)の管理画面から<code>/identity</code>を開きます。ユーザを選択し、<code>[Send reset password email]</code>をクリックします。ユーザのメールアドレスに届いたメールを確認しパスワードを設定するとNetlify CMSにログインが可能となります。</p>
+
+<h4 id="git-gateway">Git Gateway</h4>
+
+<p>Netlifyの管理画面から<code>/settings/identity#services</code>を開きます。<code>GitHub API access token</code>を設定し、Netlify CMSからGithubを操作できるようにします。</p>
+
+<p>これでNetlify CMSから記事を作成し公開することができるようになりました。</p>
+
+<h2 id="カスタマイズ">カスタマイズ</h2>
+
+<h3 id="netlify-cmsの-new-post-の項目">Netlify CMSの[new post]の項目</h3>
+
+<p>記事を作成する際設定可能な項目を変更することができます。変更する場合はソースコードから<code>site/static/admin/config.yml</code>を修正します。</p>
+
+<p>参考) <a href="https://www.netlifycms.org/docs/widgets/">Netlify CMS Widgets</a></p>
+
+<h3 id="post-posts">post -&gt; posts</h3>
+
+<p>Netlify CMSで作成されたコンテンツはデフォルトでpost直下に作成されます。posts直下にコンテンツを作成していた場合は、postからpostsに変更します。</p>
+
+<p>site/static/admin/config.yml</p>
+
+<pre><code>folder: &quot;site/content/posts&quot;
+</code></pre>
+
+<h3 id="日本時間のタイムゾーン設定">日本時間のタイムゾーン設定</h3>
+
+<p>タイムゾーンの設定はNetlifyの管理画面から行えます。<code>/settings/deploys#environment</code>を開きます。<code>Environment variables</code>の設定でkey:<code>TZ</code>, Value:<code>Asia/Tokyo</code>を設定します。</p>
+
+<h3 id="記事のurlを変更する">記事のURLを変更する</h3>
+
+<p>Netlify CMSで作成されたコンテンツはデフォルトで記事のタイトルがファイル名となり、URLとなります。日本語の記事の場合、日本語のURLとなるためURLを貼り付ける際などにURLエンコードされてしまうと長いURLになってしまいます。</p>
+
+<p>Netlifyではタイトルを変更せずに作成するファイル名のみを変更することができます。</p>
+
+<p>site/static/admin/config.yml</p>
+
+<pre><code>slug: &quot;{{year}}-{{month}}-{{day}}_{{slug}}&quot;
+</code></pre>
+
+<p>参考) <a href="https://www.netlifycms.org/docs/configuration-options/#slug">slug</a></p>
+
+<h3 id="記事のurlを日付区切りにする">記事のURLを日付区切りにする</h3>
+
+<p>slugでファイル名を変更した場合、記事のURLを日付にすることはできますが、slugでは日付を&rsquo;/&lsquo;で区切ることはできません。</p>
+
+<p><a href="https://sitename/posts/2019_11_09_slug">https://sitename/posts/2019_11_09_slug</a></p>
+
+<p>↓</p>
+
+<p><a href="https://sitename/posts/2019/11/09/slug">https://sitename/posts/2019/11/09/slug</a></p>
+
+<p><strong>Hugo</strong>の設定で上記のような日付区切りのURLにすることができます。</p>
+
+<p>site/config.toml</p>
+
+<pre><code>[permalinks]
+  posts = &quot;/:year/:month/:day/:filename&quot;
+</code></pre>
+]]></content>
+		</item>
+		
+		<item>
+			<title>slugを変更したので</title>
+			<link>https://neutrinoboy.jp/2019/11/20/0658201711/</link>
+			<pubDate>Wed, 20 Nov 2019 08:56:01 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/11/20/0658201711/</guid>
+			<description>試してみる。</description>
+			<content type="html"><![CDATA[<p>試してみる。</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>contentsのURL変えたよ</title>
+			<link>https://neutrinoboy.jp/2019/11/20/2019-11-20-170520/</link>
+			<pubDate>Wed, 20 Nov 2019 08:05:05 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/11/20/2019-11-20-170520/</guid>
+			<description>変わったの？
+https://www.netlifycms.org/docs/configuration-options/#slug-type
+変わったじゃんねえ。
+でも思ってたんと違う。
+posts/2019/01/01/1234 &amp;ndash;&amp;gt; posts/2019-01-01-1234
+うーん
+今度はHugoのconfigで変更できた。
+https://gohugo.io/content-management/urls/#permalinks
+permalinks設定するだけ。
+できるもんだねえ。</description>
+			<content type="html"><![CDATA[<p>変わったの？</p>
+
+<p><a href="https://www.netlifycms.org/docs/configuration-options/#slug-type">https://www.netlifycms.org/docs/configuration-options/#slug-type</a></p>
+
+<p>変わったじゃんねえ。</p>
+
+<p>でも思ってたんと違う。</p>
+
+<p>posts/2019/01/01/1234 &ndash;&gt; posts/2019-01-01-1234</p>
+
+<p>うーん</p>
+
+<p>今度はHugoのconfigで変更できた。</p>
+
+<p><a href="https://gohugo.io/content-management/urls/#permalinks">https://gohugo.io/content-management/urls/#permalinks</a></p>
+
+<p>permalinks設定するだけ。</p>
+
+<p>できるもんだねえ。</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>投稿時間がずれていたので日本時間に修正した。</title>
+			<link>https://neutrinoboy.jp/2019/11/20/%E6%8A%95%E7%A8%BF%E6%99%82%E9%96%93%E3%81%8C%E3%81%9A%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F%E3%81%AE%E3%81%A7%E6%97%A5%E6%9C%AC%E6%99%82%E9%96%93%E3%81%AB%E4%BF%AE%E6%AD%A3%E3%81%97%E3%81%9F/</link>
+			<pubDate>Wed, 20 Nov 2019 07:24:13 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/11/20/%E6%8A%95%E7%A8%BF%E6%99%82%E9%96%93%E3%81%8C%E3%81%9A%E3%82%8C%E3%81%A6%E3%81%84%E3%81%9F%E3%81%AE%E3%81%A7%E6%97%A5%E6%9C%AC%E6%99%82%E9%96%93%E3%81%AB%E4%BF%AE%E6%AD%A3%E3%81%97%E3%81%9F/</guid>
+			<description>テンプレート（Hermit）をみてみる。
+see. site/themes/hermit/layouts/posts/single.html
+.GitInfo.AuthorDate.Local
+おおーGitInfoというものがあるのか。なんかLocalもすでに考慮してあるようだ。
+ということで、GitInfoを有効にした。
+vi site/config.toml  enableGitInfo = true 日本時間になった！
+と、思ったらNetlify CMS上では正しい時間になってるけど、Publishすると
+2019-11-20 07:24 +0900
++9:00と出ているものの時間は違う&amp;hellip;
+こりゃあテーマぽいな
+と、思ったらまたまた外れた。
+今度はNetlifyだった。
+NetlifyのコンパネからEnvironment VariablesにTZ Asia/Tokyoをセットしてbuildしなおしたら時間が正しくなった。
+今度こそ！</description>
+			<content type="html"><![CDATA[<p>テンプレート（Hermit）をみてみる。</p>
+
+<p>see. site/themes/hermit/layouts/posts/single.html</p>
+
+<p>.GitInfo.AuthorDate.Local</p>
+
+<p>おおーGitInfoというものがあるのか。なんかLocalもすでに考慮してあるようだ。</p>
+
+<p>ということで、GitInfoを有効にした。</p>
+
+<pre><code>vi site/config.toml
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-vim" data-lang="vim"><span class="nx">enableGitInfo</span> <span class="p">=</span> <span class="nx">true</span></code></pre></div>
+<p><del>日本時間になった！</del></p>
+
+<p>と、思ったらNetlify CMS上では正しい時間になってるけど、Publishすると</p>
+
+<p><code>2019-11-20 07:24 +0900</code></p>
+
+<p>+9:00と出ているものの時間は違う&hellip;</p>
+
+<p><del>こりゃあテーマぽいな</del></p>
+
+<p>と、思ったらまたまた外れた。</p>
+
+<p>今度はNetlifyだった。</p>
+
+<p>NetlifyのコンパネからEnvironment Variablesに<code>TZ Asia/Tokyo</code>をセットしてbuildしなおしたら時間が正しくなった。</p>
+
+<p>今度こそ！</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>スマホでPOST</title>
+			<link>https://neutrinoboy.jp/2019/11/20/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7post/</link>
+			<pubDate>Wed, 20 Nov 2019 06:26:30 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/11/20/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7post/</guid>
+			<description>スマホから投稿したくなることもあるよね。</description>
+			<content type="html"><![CDATA[<p>スマホから投稿したくなることもあるよね。</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Netlify CMSでHugoをCMS化する</title>
+			<link>https://neutrinoboy.jp/2019/11/20/netify-cms%E3%81%A7hugo%E3%82%92cms%E5%8C%96%E3%81%99%E3%82%8B/</link>
+			<pubDate>Wed, 20 Nov 2019 05:49:09 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/11/20/netify-cms%E3%81%A7hugo%E3%82%92cms%E5%8C%96%E3%81%99%E3%82%8B/</guid>
+			<description>これを見ればわかるよ。
+https://www.yuri-k.com/post/hugo_and_netlify_cms/</description>
+			<content type="html"><![CDATA[<p>これを見ればわかるよ。</p>
+
+<p><a href="https://www.yuri-k.com/post/hugo_and_netlify_cms/">https://www.yuri-k.com/post/hugo_and_netlify_cms/</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>最初の投稿</title>
+			<link>https://neutrinoboy.jp/2019/10/16/%E6%9C%80%E5%88%9D%E3%81%AE%E6%8A%95%E7%A8%BF/</link>
+			<pubDate>Wed, 16 Oct 2019 02:38:57 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/10/16/%E6%9C%80%E5%88%9D%E3%81%AE%E6%8A%95%E7%A8%BF/</guid>
+			<description>最初の投稿。</description>
+			<content type="html"><![CDATA[<p>最初の投稿。</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>The &#34;figure&#34; Shortcode</title>
-			<link>https://neutrinoboy.jp/posts/the-figure-shortcode/</link>
+			<link>https://neutrinoboy.jp/2018/12/24/the-figure-shortcode/</link>
 			<pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
 			
-			<guid>https://neutrinoboy.jp/posts/the-figure-shortcode/</guid>
+			<guid>https://neutrinoboy.jp/2018/12/24/the-figure-shortcode/</guid>
 			<description>Hugo has figure shortcode built in, so you can easily add figcaptions or hyperlink rel attributes to images. Documentations can be found here:
 https://gohugo.io/content-management/shortcodes/#figure
 This theme has 3 CSS classes made for figure elements:
@@ -81,10 +466,10 @@ This theme has 3 CSS classes made for figure elements:
 		
 		<item>
 			<title>Post With Featured Image</title>
-			<link>https://neutrinoboy.jp/posts/post-with-featured-image/</link>
+			<link>https://neutrinoboy.jp/2018/10/01/post-with-featured-image/</link>
 			<pubDate>Mon, 01 Oct 2018 16:15:09 +0800</pubDate>
 			
-			<guid>https://neutrinoboy.jp/posts/post-with-featured-image/</guid>
+			<guid>https://neutrinoboy.jp/2018/10/01/post-with-featured-image/</guid>
 			<description>Just define the image URL in the content’s front matter, the featured image will be displayed as the background.
 For example:
 ---images:-https://picsum.photos/1024/768/?random--- This is an array, you can set multiple urls, only the first url will be used. These images is also used in Twitter Cards and the Open Graph metadata.</description>
@@ -101,10 +486,10 @@ For example:
 		
 		<item>
 			<title>Typography</title>
-			<link>https://neutrinoboy.jp/posts/typography/</link>
+			<link>https://neutrinoboy.jp/2018/09/29/typography/</link>
 			<pubDate>Sat, 29 Sep 2018 11:36:33 +0800</pubDate>
 			
-			<guid>https://neutrinoboy.jp/posts/typography/</guid>
+			<guid>https://neutrinoboy.jp/2018/09/29/typography/</guid>
 			<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
 			<content type="html"><![CDATA[
 
@@ -212,10 +597,10 @@ For example:
 		
 		<item>
 			<title>Creating a New Theme</title>
-			<link>https://neutrinoboy.jp/posts/creating-a-new-theme/</link>
+			<link>https://neutrinoboy.jp/2014/09/28/creating-a-new-theme/</link>
 			<pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
 			
-			<guid>https://neutrinoboy.jp/posts/creating-a-new-theme/</guid>
+			<guid>https://neutrinoboy.jp/2014/09/28/creating-a-new-theme/</guid>
 			<description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
 			<content type="html"><![CDATA[
@@ -1316,10 +1701,10 @@ $ vi themes/zafta/layouts/_default/single.html
 		
 		<item>
 			<title>(Hu)go Template Primer</title>
-			<link>https://neutrinoboy.jp/posts/goisforlovers/</link>
+			<link>https://neutrinoboy.jp/2014/04/02/goisforlovers/</link>
 			<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
 			
-			<guid>https://neutrinoboy.jp/posts/goisforlovers/</guid>
+			<guid>https://neutrinoboy.jp/2014/04/02/goisforlovers/</guid>
 			<description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description>
 			<content type="html"><![CDATA[
@@ -1661,10 +2046,10 @@ so, such as in this example:</p>
 		
 		<item>
 			<title>Getting Started with Hugo</title>
-			<link>https://neutrinoboy.jp/posts/hugoisforlovers/</link>
+			<link>https://neutrinoboy.jp/2014/04/02/hugoisforlovers/</link>
 			<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
 			
-			<guid>https://neutrinoboy.jp/posts/hugoisforlovers/</guid>
+			<guid>https://neutrinoboy.jp/2014/04/02/hugoisforlovers/</guid>
 			<description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
@@ -1754,10 +2139,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
 		
 		<item>
 			<title>Migrate to Hugo from Jekyll</title>
-			<link>https://neutrinoboy.jp/posts/migrate-from-jekyll/</link>
+			<link>https://neutrinoboy.jp/2014/03/10/migrate-from-jekyll/</link>
 			<pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
 			
-			<guid>https://neutrinoboy.jp/posts/migrate-from-jekyll/</guid>
+			<guid>https://neutrinoboy.jp/2014/03/10/migrate-from-jekyll/</guid>
 			<description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>

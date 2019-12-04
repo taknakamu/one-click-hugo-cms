@@ -14,10 +14,10 @@
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://neutrinoboy.jp/posts/hugoisforlovers/</link>
+      <link>https://neutrinoboy.jp/2014/04/02/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://neutrinoboy.jp/posts/hugoisforlovers/</guid>
+      <guid>https://neutrinoboy.jp/2014/04/02/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
