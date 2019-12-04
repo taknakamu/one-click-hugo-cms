@@ -1,17 +1,10 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About "nmta blog""
+date = "2019-12-04"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
-
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+"nmta blog" is a blog written by Kosuke Nakamura. I am a software engineer and project manager. I'm interested in front-end technology and engineering management, but the last technology I created is jQuery.
+Vue.js, Angular and React are all good. But I still like jQuery. Hmm ... that time was good. I'll concentrate on management from now on.
+If you want to see the product I created, check GitHub.
+Learn more and contribute on [GitHub](https://github.com/taknakamu).
 
