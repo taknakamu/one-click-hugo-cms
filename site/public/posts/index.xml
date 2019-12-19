@@ -6,8 +6,40 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Fri, 13 Dec 2019 04:27:35 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 17 Dec 2019 08:46:48 +0000</lastBuildDate>
 		<atom:link href="https://neutrinoboy.jp/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>アジャイルサムライ</title>
+			<link>https://neutrinoboy.jp/2019/12/17/2006171812/</link>
+			<pubDate>Tue, 17 Dec 2019 08:46:48 +0000</pubDate>
+			
+			<guid>https://neutrinoboy.jp/2019/12/17/2006171812/</guid>
+			<description>アジャイルサムライを読んだ。メモしながら、資料を作りながら何度も読み返していたので常に持ち歩き、長いこと読んでいた。
+思い返せば5年程前だろうか（もっとかな？）。その頃はまだ前の職場だが、アジャイルサムライによって作業の進め方がアジャイルに変わった。
+ユニットテスト、リファクタリング、継続的インテグレーションなど今では当たり前となったものの、実施しない開発があるからこそ、あらためて重要だと感じる。
+当時は余裕もあったし、やるのが当たり前ではあったが、それは自社サービスならではの発想なのかもしれない。
+締め切りに追われたり、度重なる仕様変更などストレスやプレッシャーに晒される状況ではその当たり前を維持することはできず、その場限りの対応で済ませることもよくある。
+自分一人で作業するならまだしも、プロジェクトのために集められたはじめてのメンバーにアジャイルを理解してもらい対応してもらう余裕もパワーも自分にはなかった。
+その結果はアジャイルサムライに記載の通り、技術的負債を抱えたソースコードの山。バグも積み残し、デバッグには長時間を要する。テストなどない。マージもできない。デプロイも失敗する。そんな状況で追加開発や仕様変更など対応できるはずもない。
+しかし、この状況を解決するためのアジャイルである。この状況でこそアジャイルな開発を行わなければいけなかったと改めて感じた。</description>
+			<content type="html"><![CDATA[<p>アジャイルサムライを読んだ。メモしながら、資料を作りながら何度も読み返していたので常に持ち歩き、長いこと読んでいた。</p>
+
+<p>思い返せば5年程前だろうか（もっとかな？）。その頃はまだ前の職場だが、アジャイルサムライによって作業の進め方がアジャイルに変わった。</p>
+
+<p>ユニットテスト、リファクタリング、継続的インテグレーションなど今では当たり前となったものの、実施しない開発があるからこそ、あらためて重要だと感じる。</p>
+
+<p>当時は余裕もあったし、やるのが当たり前ではあったが、それは自社サービスならではの発想なのかもしれない。</p>
+
+<p>締め切りに追われたり、度重なる仕様変更などストレスやプレッシャーに晒される状況ではその当たり前を維持することはできず、その場限りの対応で済ませることもよくある。</p>
+
+<p>自分一人で作業するならまだしも、プロジェクトのために集められたはじめてのメンバーにアジャイルを理解してもらい対応してもらう余裕もパワーも自分にはなかった。</p>
+
+<p>その結果はアジャイルサムライに記載の通り、技術的負債を抱えたソースコードの山。バグも積み残し、デバッグには長時間を要する。テストなどない。マージもできない。デプロイも失敗する。そんな状況で追加開発や仕様変更など対応できるはずもない。</p>
+
+<p>しかし、この状況を解決するためのアジャイルである。この状況でこそアジャイルな開発を行わなければいけなかったと改めて感じた。</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>アジャイルの問題点</title>
@@ -310,17 +342,6 @@ Github Pagesを使えば簡単に無料でサイトを公開することがで�
 		</item>
 		
 		<item>
-			<title>slugを変更したので</title>
-			<link>https://neutrinoboy.jp/2019/11/20/0658201711/</link>
-			<pubDate>Wed, 20 Nov 2019 08:56:01 +0000</pubDate>
-			
-			<guid>https://neutrinoboy.jp/2019/11/20/0658201711/</guid>
-			<description>試してみる。</description>
-			<content type="html"><![CDATA[<p>試してみる。</p>
-]]></content>
-		</item>
-		
-		<item>
 			<title>contentsのURL変えたよ</title>
 			<link>https://neutrinoboy.jp/2019/11/20/2019-11-20-170520/</link>
 			<pubDate>Wed, 20 Nov 2019 08:05:05 +0000</pubDate>
@@ -408,42 +429,6 @@ NetlifyのコンパネからEnvironment VariablesにTZ Asia/Tokyoをセットし
 <p>NetlifyのコンパネからEnvironment Variablesに<code>TZ Asia/Tokyo</code>をセットしてbuildしなおしたら時間が正しくなった。</p>
 
 <p>今度こそ！</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>スマホでPOST</title>
-			<link>https://neutrinoboy.jp/2019/11/20/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7post/</link>
-			<pubDate>Wed, 20 Nov 2019 06:26:30 +0000</pubDate>
-			
-			<guid>https://neutrinoboy.jp/2019/11/20/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7post/</guid>
-			<description>スマホから投稿したくなることもあるよね。</description>
-			<content type="html"><![CDATA[<p>スマホから投稿したくなることもあるよね。</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Netlify CMSでHugoをCMS化する</title>
-			<link>https://neutrinoboy.jp/2019/11/20/netify-cms%E3%81%A7hugo%E3%82%92cms%E5%8C%96%E3%81%99%E3%82%8B/</link>
-			<pubDate>Wed, 20 Nov 2019 05:49:09 +0000</pubDate>
-			
-			<guid>https://neutrinoboy.jp/2019/11/20/netify-cms%E3%81%A7hugo%E3%82%92cms%E5%8C%96%E3%81%99%E3%82%8B/</guid>
-			<description>これを見ればわかるよ。
-https://www.yuri-k.com/post/hugo_and_netlify_cms/</description>
-			<content type="html"><![CDATA[<p>これを見ればわかるよ。</p>
-
-<p><a href="https://www.yuri-k.com/post/hugo_and_netlify_cms/">https://www.yuri-k.com/post/hugo_and_netlify_cms/</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>最初の投稿</title>
-			<link>https://neutrinoboy.jp/2019/10/16/%E6%9C%80%E5%88%9D%E3%81%AE%E6%8A%95%E7%A8%BF/</link>
-			<pubDate>Wed, 16 Oct 2019 02:38:57 +0000</pubDate>
-			
-			<guid>https://neutrinoboy.jp/2019/10/16/%E6%9C%80%E5%88%9D%E3%81%AE%E6%8A%95%E7%A8%BF/</guid>
-			<description>最初の投稿。</description>
-			<content type="html"><![CDATA[<p>最初の投稿。</p>
 ]]></content>
 		</item>
 		

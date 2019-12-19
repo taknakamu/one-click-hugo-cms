@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 13 Dec 2019 04:27:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2019 08:46:48 +0000</lastBuildDate>
     
 	<atom:link href="https://neutrinoboy.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>アジャイルサムライ</title>
+      <link>https://neutrinoboy.jp/2019/12/17/2006171812/</link>
+      <pubDate>Tue, 17 Dec 2019 08:46:48 +0000</pubDate>
+      
+      <guid>https://neutrinoboy.jp/2019/12/17/2006171812/</guid>
+      <description>アジャイルサムライを読んだ。メモしながら、資料を作りながら何度も読み返していたので常に持ち歩き、長いこと読んでいた。
+思い返せば5年程前だろうか（もっとかな？）。その頃はまだ前の職場だが、アジャイルサムライによって作業の進め方がアジャイルに変わった。
+ユニットテスト、リファクタリング、継続的インテグレーションなど今では当たり前となったものの、実施しない開発があるからこそ、あらためて重要だと感じる。
+当時は余裕もあったし、やるのが当たり前ではあったが、それは自社サービスならではの発想なのかもしれない。
+締め切りに追われたり、度重なる仕様変更などストレスやプレッシャーに晒される状況ではその当たり前を維持することはできず、その場限りの対応で済ませることもよくある。
+自分一人で作業するならまだしも、プロジェクトのために集められたはじめてのメンバーにアジャイルを理解してもらい対応してもらう余裕もパワーも自分にはなかった。
+その結果はアジャイルサムライに記載の通り、技術的負債を抱えたソースコードの山。バグも積み残し、デバッグには長時間を要する。テストなどない。マージもできない。デプロイも失敗する。そんな状況で追加開発や仕様変更など対応できるはずもない。
+しかし、この状況を解決するためのアジャイルである。この状況でこそアジャイルな開発を行わなければいけなかったと改めて感じた。</description>
+    </item>
     
     <item>
       <title>アジャイルの問題点</title>
@@ -99,15 +115,6 @@ Github Pagesを使えば簡単に無料でサイトを公開することがで�
     </item>
     
     <item>
-      <title>slugを変更したので</title>
-      <link>https://neutrinoboy.jp/2019/11/20/0658201711/</link>
-      <pubDate>Wed, 20 Nov 2019 08:56:01 +0000</pubDate>
-      
-      <guid>https://neutrinoboy.jp/2019/11/20/0658201711/</guid>
-      <description>試してみる。</description>
-    </item>
-    
-    <item>
       <title>contentsのURL変えたよ</title>
       <link>https://neutrinoboy.jp/2019/11/20/2019-11-20-170520/</link>
       <pubDate>Wed, 20 Nov 2019 08:05:05 +0000</pubDate>
@@ -148,31 +155,35 @@ NetlifyのコンパネからEnvironment VariablesにTZ Asia/Tokyoをセットし
     </item>
     
     <item>
-      <title>スマホでPOST</title>
-      <link>https://neutrinoboy.jp/2019/11/20/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7post/</link>
-      <pubDate>Wed, 20 Nov 2019 06:26:30 +0000</pubDate>
+      <title>The &#34;figure&#34; Shortcode</title>
+      <link>https://neutrinoboy.jp/2018/12/24/the-figure-shortcode/</link>
+      <pubDate>Mon, 24 Dec 2018 12:29:41 +0800</pubDate>
       
-      <guid>https://neutrinoboy.jp/2019/11/20/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7post/</guid>
-      <description>スマホから投稿したくなることもあるよね。</description>
+      <guid>https://neutrinoboy.jp/2018/12/24/the-figure-shortcode/</guid>
+      <description>Hugo has figure shortcode built in, so you can easily add figcaptions or hyperlink rel attributes to images. Documentations can be found here:
+https://gohugo.io/content-management/shortcodes/#figure
+This theme has 3 CSS classes made for figure elements:
+ big: images will break the width limit of main content area. left: images will float to the left. right: images will float to the right.  If a figure has no class set, the image will behave just like a normal markdown image: !</description>
     </item>
     
     <item>
-      <title>Netlify CMSでHugoをCMS化する</title>
-      <link>https://neutrinoboy.jp/2019/11/20/netify-cms%E3%81%A7hugo%E3%82%92cms%E5%8C%96%E3%81%99%E3%82%8B/</link>
-      <pubDate>Wed, 20 Nov 2019 05:49:09 +0000</pubDate>
+      <title>Post With Featured Image</title>
+      <link>https://neutrinoboy.jp/2018/10/01/post-with-featured-image/</link>
+      <pubDate>Mon, 01 Oct 2018 16:15:09 +0800</pubDate>
       
-      <guid>https://neutrinoboy.jp/2019/11/20/netify-cms%E3%81%A7hugo%E3%82%92cms%E5%8C%96%E3%81%99%E3%82%8B/</guid>
-      <description>これを見ればわかるよ。
-https://www.yuri-k.com/post/hugo_and_netlify_cms/</description>
+      <guid>https://neutrinoboy.jp/2018/10/01/post-with-featured-image/</guid>
+      <description>Just define the image URL in the content’s front matter, the featured image will be displayed as the background.
+For example:
+---images:-https://picsum.photos/1024/768/?random--- This is an array, you can set multiple urls, only the first url will be used. These images is also used in Twitter Cards and the Open Graph metadata.</description>
     </item>
     
     <item>
-      <title>最初の投稿</title>
-      <link>https://neutrinoboy.jp/2019/10/16/%E6%9C%80%E5%88%9D%E3%81%AE%E6%8A%95%E7%A8%BF/</link>
-      <pubDate>Wed, 16 Oct 2019 02:38:57 +0000</pubDate>
+      <title>Typography</title>
+      <link>https://neutrinoboy.jp/2018/09/29/typography/</link>
+      <pubDate>Sat, 29 Sep 2018 11:36:33 +0800</pubDate>
       
-      <guid>https://neutrinoboy.jp/2019/10/16/%E6%9C%80%E5%88%9D%E3%81%AE%E6%8A%95%E7%A8%BF/</guid>
-      <description>最初の投稿。</description>
+      <guid>https://neutrinoboy.jp/2018/09/29/typography/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
   </channel>
